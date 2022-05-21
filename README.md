@@ -1,19 +1,7 @@
 ## laykefu
 thinkphp5+Gatewayworker搭建的web客服系统
 
-体验地址：https://www.laykefu.com 
-
-客服地址:https://www.laykefu.com/service
-账户密码：
-客服小美 123456 
-
-后台管理地址：https://www.laykefu.com/admin
-账户密码：暂不提供
-
-github仓库：https://github.com/shmilylbelva/laykefu
-
-![演示](http://upload-images.jianshu.io/upload_images/2825702-f313bd88202681d8.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp)
-
+账号：admin 123456
 ## 1.客户端接入
 
 1、添加laykefu.css样式文件
@@ -74,21 +62,6 @@ location /wss {
             proxy_set_header Upgrade $http_upgrade;
             proxy_set_header Connection "upgrade";
             rewrite /wss/(.*) /$1 break;
-            proxy_redirect off;
-}
-```
-
-[可选] nginx反向代理 ws
-```
-location /wss {
-            proxy_pass http://127.0.0.1:7272;
-            proxy_set_header X-Real-IP $remote_addr;
-            proxy_set_header Host $host;
-            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-            proxy_http_version 1.1;
-            proxy_set_header Upgrade $http_upgrade;
-            proxy_set_header Connection "upgrade";
-            rewrite /ws/(.*) /$1 break;
             proxy_redirect off;
 }
 ```
@@ -159,14 +132,3 @@ php start.php connections
 ## License
 
 MIT
-
-## QQ交流群
-
-【601391162】
-
-**觉得项目对您有用，请我喝杯咖啡吧。您的支持将鼓励我继续创作！**
-
-![QQ截图20180904161534.jpg](https://upload-images.jianshu.io/upload_images/2825702-ae4567c3bf58fad4.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/320)
-![QQ截图20180904161507.jpg](https://upload-images.jianshu.io/upload_images/2825702-ef48969aa5338754.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/320)
-
-
