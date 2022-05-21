@@ -1,0 +1,24 @@
+2022-05-21 14:46:24 pid:2699685 Workerman[start.php] stopping ...
+2022-05-21 14:46:26 pid:2699685 worker[ChatBusinessWorker:2699687] exit with status 9
+2022-05-21 14:46:26 pid:2699685 Workerman[start.php] has been stopped
+2022-05-21 14:46:27 pid:2699764 Workerman[start.php] start in DEBUG mode
+2022-05-21 14:54:49 pid:2699764 Workerman[start.php] stopping ...
+2022-05-21 14:54:50 pid:2699764 Workerman[start.php] has been stopped
+2022-05-21 14:55:57 pid:2700713 Workerman[start.php] start in DEBUG mode
+2022-05-21 14:56:12 pid:2700713 Workerman[start.php] stopping ...
+2022-05-21 14:56:14 pid:2700713 worker[ChatBusinessWorker:2700716] exit with status 9
+2022-05-21 14:56:14 pid:2700713 Workerman[start.php] has been stopped
+2022-05-21 14:56:16 pid:2700759 Workerman[start.php] start in DEBUG mode
+2022-05-21 14:57:27 pid:2700759 Workerman[start.php] stopping ...
+2022-05-21 14:57:29 pid:2700759 worker[ChatBusinessWorker:2700761] exit with status 9
+2022-05-21 14:57:29 pid:2700759 Workerman[start.php] has been stopped
+2022-05-21 14:57:29 pid:2700848 Workerman[start.php] start in DEBUG mode
+2022-05-21 14:58:24 pid:2700848 Workerman[start.php] stopping ...
+2022-05-21 14:58:26 pid:2700848 worker[ChatBusinessWorker:2700849] exit with status 9
+2022-05-21 14:58:26 pid:2700848 worker[ChatBusinessWorker:2700850] exit with status 9
+2022-05-21 14:58:26 pid:2700848 Workerman[start.php] has been stopped
+2022-05-21 14:58:29 pid:2700930 Workerman[start.php] start in DEBUG mode
+2022-05-21 15:01:00 pid:2700930 Workerman[start.php] stopping ...
+2022-05-21 15:01:02 pid:2700930 worker[ChatBusinessWorker:2700933] exit with status 9
+2022-05-21 15:01:02 pid:2700930 Workerman[start.php] has been stopped
+2022-05-21 15:03:16 pid:2701912 Workerman[start.php] start in DEBUG mode
